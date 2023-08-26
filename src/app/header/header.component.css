@@ -1,6 +1,8 @@
-body, ul {
+*
+{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Navbar styles */
@@ -12,10 +14,7 @@ body, ul {
     align-items: center;
     text-align: center;      
     padding: 20px 40px;
-    z-index: 100;
-    top: 0; 
-    position: fixed; 
-    left: 0; 
+    
     width: 95%;
     margin-right: 20px;
 }
